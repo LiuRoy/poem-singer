@@ -20,4 +20,4 @@ for i in xrange(iter_num):
         break
     start -= rate * d
 
-print start
+print start  #3.67750709993
