@@ -44,6 +44,7 @@ import sys
 import timeit
 
 import numpy
+numpy.random.seed(1337)  # for reproducibility
 
 import theano
 import theano.tensor as T
@@ -471,3 +472,5 @@ def predict():
 
 if __name__ == '__main__':
     sgd_optimization_mnist()
+    predict()
+
